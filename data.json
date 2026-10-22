@@ -1,0 +1,24 @@
+{
+    "aliases": {
+        "华法林": "warfarin",
+        "warfarin": "warfarin",
+        "阿司匹林": "aspirin",
+        "aspirin": "aspirin",
+        "布洛芬": "ibuprofen",
+        "ibuprofen": "ibuprofen",
+        "二甲双胍": "metformin",
+        "metformin": "metformin",
+        "碘造影剂": "iodinated contrast",
+        "iodinated contrast": "iodinated contrast",
+        "辛伐他汀": "simvastatin",
+        "simvastatin": "simvastatin",
+        "克拉霉素": "clarithromycin",
+        "clarithromycin": "clarithromycin"
+    },
+    "interactions": [
+        {"drugs": ["warfarin", "aspirin"], "level": "中度", "note": "出血风险增加，需密切监测"},
+        {"drugs": ["warfarin", "ibuprofen"], "level": "严重", "note": "出血风险增加，应避免合用"},
+        {"drugs": ["metformin", "iodinated contrast"], "level": "中度", "note": "可能增加乳酸酸中毒风险，检查前后需暂停"},
+        {"drugs": ["simvastatin", "clarithromycin"], "level": "严重", "note": "横纹肌溶解风险增加，应避免合用"}
+    ]
+}
