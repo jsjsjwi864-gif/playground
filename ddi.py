@@ -53,3 +53,7 @@ while True:
         print(f"说明：{result['note']}")
     else:
         print("数据库中没有记录，不代表没有相互作用")
+        frist drug for alisses
+        print (interactions)
+        openloud
+        icons=absystems("level")item drugs
